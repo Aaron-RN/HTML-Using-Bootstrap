@@ -1,0 +1,26 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 600px), (min-width: 600px) {
+    .d-show-sm-only{display: block;}
+    .d-show-md-only{display: none;}
+    .d-show-lg-only{display: none;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .d-show-sm-only{display: none;}
+    .d-show-md-only{display: block;}
+    .d-show-lg-only{display: none;}
+} 
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    .d-show-sm-only{display: none;}
+    .d-show-md-only{display: none;}
+    .d-show-lg-only{display: block;}
+}
+
+.font-Alfa-Slab-One{font-family: 'Alfa Slab One', cursive;}
+
+.navLinks a{border-left: 1px lightgray solid; color: black;text-decoration: none;padding: 6px;}
+.navLinks a:hover{color: red;}
+.navLinks a:first-of-type{border:0;}

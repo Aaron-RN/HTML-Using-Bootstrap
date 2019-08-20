@@ -4,27 +4,63 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <script src="https://kit.fontawesome.com/056d9f1094.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
         <title>Solo Project: Using the Bootstrap Framework</title>
     </head>
     <body>
         <header>
-            <div class="container">
-                <div class="bg-danger d-flex justify-content-between align-items-end">
-                    <date>Mon, Aug 19, 2019</date>
-                    <div class="text-white display-1 font-weight-bolder">Newsweek</div>
-                    <div class="d-flex">
+            <div class="container-fluid">
+                <div class="col-sm-12 p-0 pl-xl-5 pr-xl-5">
+                <div class="bg-danger row justify-content-between align-items-end pb-4 pl-2 pr-2 ml-lg-5 mr-lg-5">
+                    <div class="text-white p-2 d-show-lg-only">Mon, Aug 19, 2019</div>
+                    <div class="text-white display-3 font-Alfa-Slab-One">Newsweek</div>
+                    <div class="d-flex text-uppercase display-5 p-2">
                         <div class="text-white font-weight-bold">Sign in</div>
-                        <div class="bg-white text-danger font-weight-bold">Subscribe</div>
+                        <div class="bg-white text-danger font-weight-bold pl-2 pr-2 ml-2">Subscribe &#0155;</div>
                     </div>
                 </div>
+                </div>
             </div>
-            <nav>
-
+            <nav class="navbar navbar-expand-md">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="container-fluid"> 
+                    <div class="col-sm-12 p-0 pl-lg-5 pr-lg-5">
+                    <div class="row navLinks justify-content-around text-center p-2 ml-lg-5 mr-lg-5">
+                        <a href="#" class="h5 flex-fill">U.S.</a>
+                        <a href="#" class="h5 flex-fill">World</a>
+                        <a href="#" class="h5 flex-fill">Business</a>
+                        <a href="#" class="h5 flex-fill">Tech &amp; Science</a>
+                        <a href="#" class="h5 flex-fill">Culture</a>
+                        <a href="#" class="h5 flex-fill">Sports</a>
+                        <a href="#" class="h5 flex-fill">Health</a>
+                        <a href="#" class="h5 flex-fill">Opinion</a>
+                        <a href="#" class="h5 flex-fill">Vantage</a>
+                        <form class="form-inline flex-fill text-secondary" action="/search_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn h5 text-secondary" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </nav>
         </header>
         
         <main>
+            <div class="container-fluid">
+                <div class="col-sm-12 p-0 pl-lg-5 pr-lg-5">
+                    <div class="row">
+                        <div class="col"></div>
+                    </div>
+                </div>            
+            </div>
         </main>
         
         <footer>
