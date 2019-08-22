@@ -10,15 +10,22 @@
         <title>Solo Project: Using the Bootstrap Framework</title>
     </head>
     <body class="pl-xl-5 pr-xl-5 bg-lgrey">
-        <div class="pr-lg-5 pl-lg-5">
+        <div class="pr-xlg-5 pl-xlg-5">
         <header>
             <div class="container-fluid">
                 <div class="bg-danger row justify-content-between align-items-end p-4">
                     <div class="text-white font-Roboto-Condensed d-show-lg-only">Mon, Aug 19, 2019</div>
                     <img src="images/newsweek-logo.svg" alt="Newsweek Logo" class="text-white img-fluid" style="width: 30%;">
                     <div class="d-flex text-uppercase display-5">
-                        <div class="text-white font-weight-bold">Sign in</div>
-                        <div class="bg-white text-danger font-Roboto-Condensed font-weight-bold pl-2 pr-2 ml-2">Subscribe &#0155;</div>
+                        <a href="#" class="text-white font-weight-bold flex-grow-2">Sign in</a>
+                        <a href="#">
+                            <div class="pl-1 pr-1 bg-white text-danger font-Roboto-Condensed font-weight-bold ml-2">
+                                <div class="d-flex align-items-center">
+                                    <div class="mr-1">Subscribe</div>
+                                    <img src="images/icon-arrow-right-red.svg" alt="red arrow icon" style="width: 8px;">
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -55,42 +62,44 @@
                 <div class="col-sm-12 p-sm-0">
                     <div class="row p-3 bg-white">
                         <div class="col-sm-12 col-md-6 col-lg order-2 order-md-1">
-                            <h6 class="text-secondary font-weight-bold">FEATURED STORIES</h6>
                             <section>
-                                <div class="position-relative">
-                                    <a href="#"><figure><img src="images/newsweek-momentum-awards-2019.png" alt="Newsweek Momentum Awards" class="img-fluid"></figure></a>
-                                    <div class="block-caption p-2 pl-3 pr-3">Analysis</div>
-                                </div>
-                                <h4 class="article-header"><a href="#">The Newsweek Momentum Awards</a></h4>
-                                <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."
-                                </p>
-                            </section>
-                            <section>
-                                <div class="position-relative">
-                                    <a href="#"><figure><img src="images/baby-measles.jpg" alt="baby with measles" class="img-fluid"></figure></a>
-                                    <div class="block-caption p-2 pl-3 pr-3">News</div>
-                                </div>
-                                <h4 class="article-header"><a href="#">Measles on the Rise: Outbreak Grows to 30 States</a></h4>
-                                <p>The increase in measles cases is due to fewer people being vaccinated against the deadly disease, which was, at one time, declared eliminated.
-                                </p>
-                            </section>
-                            <section>
-                                <div class="position-relative">
-                                    <a href="#"><figure><img src="images/syria-ypg-kurdish-fighters.jpg" alt="Kurdish soldiers with guns" class="img-fluid"></figure></a>
-                                    <div class="block-caption p-2 pl-3 pr-3">World</div>
-                                </div>
-                                <h4 class="article-header"><a href="#">Turkey Raising Tensions with Russia, Iran in Syria as It Tries U.S. Deal</a></h4>
-                                <p>As a deal between Russia and Turkey neared collapse in Idlib, a separate Turkish attempt to enhance its influence in the country at the expense of another U.S. ally has apparently made progress.
-                                </p>
-                            </section>
-                            <section>
-                                <div class="position-relative">
-                                    <a href="#"><figure><img src="images/spot-im-logo.png" alt="spot IM logo" class="img-fluid"></figure></a>
-                                    <div class="block-caption p-2 pl-3 pr-3">Editor's Note</div>
-                                </div>
-                                <h4 class="article-header"><a href="#">To Our Readers:</a></h4>
-                                <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.
-                                </p>
+                                <h6 class="text-secondary font-weight-bold">FEATURED STORIES</h6>
+                                <article>
+                                    <div class="position-relative">
+                                        <a href="#"><figure><img src="images/FeaturedStories/newsweek-momentum-awards-2019.png" alt="Newsweek Momentum Awards" class="img-fluid"></figure></a>
+                                        <div class="block-caption p-2 pl-3 pr-3">Analysis</div>
+                                    </div>
+                                    <h4 class="article-header"><a href="#">The Newsweek Momentum Awards</a></h4>
+                                    <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."
+                                    </p>
+                                </article>
+                                <article>
+                                    <div class="position-relative">
+                                        <a href="#"><figure><img src="images/FeaturedStories/baby-measles.jpg" alt="baby with measles" class="img-fluid"></figure></a>
+                                        <div class="block-caption p-2 pl-3 pr-3">News</div>
+                                    </div>
+                                    <h4 class="article-header"><a href="#">Measles on the Rise: Outbreak Grows to 30 States</a></h4>
+                                    <p>The increase in measles cases is due to fewer people being vaccinated against the deadly disease, which was, at one time, declared eliminated.
+                                    </p>
+                                </article>
+                                <article>
+                                    <div class="position-relative">
+                                        <a href="#"><figure><img src="images/FeaturedStories/syria-ypg-kurdish-fighters.jpg" alt="Kurdish soldiers with guns" class="img-fluid"></figure></a>
+                                        <div class="block-caption p-2 pl-3 pr-3">World</div>
+                                    </div>
+                                    <h4 class="article-header"><a href="#">Turkey Raising Tensions with Russia, Iran in Syria as It Tries U.S. Deal</a></h4>
+                                    <p>As a deal between Russia and Turkey neared collapse in Idlib, a separate Turkish attempt to enhance its influence in the country at the expense of another U.S. ally has apparently made progress.
+                                    </p>
+                                </article>
+                                <article>
+                                    <div class="position-relative">
+                                        <a href="#"><figure><img src="images/FeaturedStories/spot-im-logo.png" alt="spot IM logo" class="img-fluid"></figure></a>
+                                        <div class="block-caption p-2 pl-3 pr-3">Editor's Note</div>
+                                    </div>
+                                    <h4 class="article-header"><a href="#">To Our Readers:</a></h4>
+                                    <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.
+                                    </p>
+                                </article>
                             </section>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-5 order-1 order-md-2">
@@ -99,7 +108,7 @@
                                 <article>
                                     <div class="position-relative">
                                         <a href="#">
-                                            <figure><img src="images/conservatives-come-together-annual-cpac-gathering.jpg" alt="Annual CPAC gathering" class="img-fluid"></figure>
+                                            <figure><img src="images/FeaturedStories/conservatives-come-together-annual-cpac-gathering.jpg" alt="Annual CPAC gathering" class="img-fluid"></figure>
                                         </a>
                                         <div class="block-caption p-2 pl-3 pr-3">U.S.</div>
                                     </div>
@@ -165,62 +174,198 @@
                                 </div>
                                 </div>
                             </section>
+                            <section>
+                                <h6 class="text-secondary font-weight-bold">MORE STORIES</h6>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/tom-steyer-running-president.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">With Jay Inslee Out, Tom Steyer Sees Opportunity in Democratic Primaries</a></h6>
+                                          <p>California billionaire Steyer has had trouble establishing himself on a national level.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/apple-card.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">Apple's New Credit Card Should Be Kept Away From Leather aDenim</a></h6>
+                                          <p>Apple says clean Apple Card with a microfiber cloth, and avoid contact with leather and denim.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/iran-fadjr-rocket-card-us-military.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">U.S. Military Lays Out Iran's Weapons in New Playing Cards Deck</a></h6>
+                                          <p>The Federation of American Scientists has released the U.S. Army's 52-card playing deck featuring two jokers all detailing Iran's weapons arsenal.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/reuven-rivlin.jpg" alt="USA Flag next to Mexico Flag" class="mr-3 float-left" style="width:140px;"></a>
+                                      <div>
+                                          <h6 class="font-weight-bold"><a href="#">Israel's President Contradicts Trump's 'Disloyal' Jews Remarks</a></h6>
+                                          <p>"The relationship between the State of Israel and the United States is a link between peoples, which relies on historical ties, deep and strong friendships and shared values," Israeli President Reuven Rivlin told Nancy Pelosi.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/newark-lead-water.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">Governor Says It Will Take Weeks to Test Newark Lead Water Filters</a></h6>
+                                          <p>New Jersey Governor Phil Murphy also ruled out declaring a state of emergency after household filters were found not be working.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/fedor.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">Russia's Humanoid AI Space Robot Is Now on Its Way to the ISS</a></h6>
+                                          <p>Skybot F-850, also known as Fedor, left Earth on the Soyuz-2.1a rocket late Wednesday night.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/president-trump-addresses-american-veterans-75th-national-convention.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">Trump's Approval Rating Slides to 36 Percent, the Lowest Since January</a></h6>
+                                          <p>Political independents remain starkly opposed to the president, with 65 percent disapproving of the way he is handling his job.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/MoreStories/muslim-hajj-mecca-kaaba-grand-mosque-saudiarabia.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                          <h6 class="font-weight-bold"><a href="#">Muslims on Hajj Set to Face 'Extreme Danger' From Climate Change</a></h6>
+                                          <p>Scientists have predicted which years could be the most dangerous for worshippers.</p>
+                                      </div>
+                                    </div>
+                                </article>
+                            </section>
                         </div>
                         <div class="col-sm-12 col-md col-lg order-3">
-                            <h6 class="text-secondary font-weight-bold">OPINION</h6>
                             <section>
-                                <div class="media opinionBox pt-2">
-                                    <a href="#"><img src="images/opinions/yehia-hamed.png" alt="Yehia Hamed" class="mr-3 rounded-circle" style="width:65px;"></a>
-                                  <div class="media-body">
-                                    <h6 class="font-weight-bold"><a href="#">I Survived Egypt's Rabaa Massacre. Believe Me, It Could Happen in Hong Kong</a></h6>
-                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Yehia Hamed</p>
-                                  </div>
-                                </div>
+                                <h6 class="text-secondary font-weight-bold">OPINION</h6>
+                                <article>
+                                    <div class="media opinionBox pt-2">
+                                        <a href="#"><img src="images/opinions/yehia-hamed.png" alt="Yehia Hamed" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">I Survived Egypt's Rabaa Massacre. Believe Me, It Could Happen in Hong Kong</a></h6>
+                                        <p class="text-secondary text-uppercase font-weight-bold small">BY Yehia Hamed</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2">
+                                        <a href="#"><img src="images/opinions/todd-tanner.png" alt="Todd Tanner" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">The Trump Administration's Attack on Nature Threatens Hunters Like Me</a></h6>
+                                        <p class="text-secondary text-uppercase font-weight-bold small">BY Todd Tanner</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2">
+                                        <a href="#"><img src="images/opinions/aquarius-gilmer.png" alt="Aquarius Gilmer" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Here in the South, HIV/AIDS Is Killing in the Shadows Like It's 1989</a></h6>
+                                        <p class="text-secondary text-uppercase font-weight-bold small">BY Aquarius Gilmer</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2">
+                                        <a href="#"><img src="images/opinions/charlie-kirk.png" alt="Charlie Kirk" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">A Sleeper Cell of Socialists Could Steal the 2020 Election</a></h6>
+                                        <p class="text-secondary text-uppercase font-weight-bold small">BY Charlie Kirk</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2">
+                                        <a href="#"><img src="images/opinions/alex-kack.png" alt="Alex Kack" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">I'm #GreenShirtGuy, and Here's Why I Laughed at Those Pro-Trump Hecklers</a></h6>
+                                        <p class="text-secondary text-uppercase font-weight-bold small">BY Alex Kack</p>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox border-bottom-0 pt-2">
+                                        <a href="#"><img src="images/opinions/newt-gingrich.png" alt="Newt Gingrich" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">If China Attacks Democracy in Hong Kong, There Must Be Consequences</a></h6>
+                                        <p class="text-secondary text-uppercase font-weight-bold small">BY Newt Gingrich</p>
+                                      </div>
+                                    </div>
+                                </article>
                             </section>
                             <section>
-                                <div class="media opinionBox pt-2">
-                                    <a href="#"><img src="images/opinions/todd-tanner.png" alt="Todd Tanner" class="mr-3 rounded-circle" style="width:65px;"></a>
-                                  <div class="media-body">
-                                    <h6 class="font-weight-bold"><a href="#">The Trump Administration's Attack on Nature Threatens Hunters Like Me</a></h6>
-                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Todd Tanner</p>
-                                  </div>
-                                </div>
-                            </section>
-                            <section>
-                                <div class="media opinionBox pt-2">
-                                    <a href="#"><img src="images/opinions/aquarius-gilmer.png" alt="Aquarius Gilmer" class="mr-3 rounded-circle" style="width:65px;"></a>
-                                  <div class="media-body">
-                                    <h6 class="font-weight-bold"><a href="#">Here in the South, HIV/AIDS Is Killing in the Shadows Like It's 1989</a></h6>
-                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Aquarius Gilmer</p>
-                                  </div>
-                                </div>
-                            </section>
-                            <section>
-                                <div class="media opinionBox pt-2">
-                                    <a href="#"><img src="images/opinions/charlie-kirk.png" alt="Charlie Kirk" class="mr-3 rounded-circle" style="width:65px;"></a>
-                                  <div class="media-body">
-                                    <h6 class="font-weight-bold"><a href="#">A Sleeper Cell of Socialists Could Steal the 2020 Election</a></h6>
-                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Charlie Kirk</p>
-                                  </div>
-                                </div>
-                            </section>
-                            <section>
-                                <div class="media opinionBox pt-2">
-                                    <a href="#"><img src="images/opinions/alex-kack.png" alt="Alex Kack" class="mr-3 rounded-circle" style="width:65px;"></a>
-                                  <div class="media-body">
-                                    <h6 class="font-weight-bold"><a href="#">I'm #GreenShirtGuy, and Here's Why I Laughed at Those Pro-Trump Hecklers</a></h6>
-                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Alex Kack</p>
-                                  </div>
-                                </div>
-                            </section>
-                            <section>
-                                <div class="media opinionBox pt-2">
-                                    <a href="#"><img src="images/opinions/newt-gingrich.png" alt="Newt Gingrich" class="mr-3 rounded-circle" style="width:65px;"></a>
-                                  <div class="media-body">
-                                    <h6 class="font-weight-bold"><a href="#">If China Attacks Democracy in Hong Kong, There Must Be Consequences</a></h6>
-                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Newt Gingrich</p>
-                                  </div>
-                                </div>
+                                <h6 class="text-secondary font-weight-bold">LATEST NEWS</h6>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/mexicans-americans-highline-southern-border-immigration.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Mexicans and Americans Came Together to Highline Across the Southern Border</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/usps.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Video Shows White Man's Racist Rant Towards Black Postal Employee In Dallas</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/two-cans-red-bull.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Red Bull Paying Customers Who Thought It Would Actually Give Them Wings</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/freddy-krueger-nightmare-elm-street.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Freddy Krueger Actor Wants Kevin Bacon For New 'Nightmare On Elm Street'</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/teal-piper-women-wrestling-wow.jpg" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Teal Piper Talks Women of Wrestling and All Out Appearance</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/stroke.jpg" alt="USA Flag next to Mexico Flag" class="mr-3 img-fluid" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Comcast Cable Operator Hailed as Hero for Saving Customer's Life</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="media opinionBox pt-2 pb-2">
+                                        <a href="#"><img src="images/LatestNews/who-will-replace-bethenny-frankel-real-housewives-new-york.png" alt="USA Flag next to Mexico Flag" class="mr-3" style="width:140px;"></a>
+                                      <div class="media-body">
+                                        <h6 class="font-weight-bold"><a href="#">Who will replace Bethenny Frankel from The Real Housewives New York</a></h6>
+                                      </div>
+                                    </div>
+                                </article>
                             </section>
                         </div>
                     </div>
