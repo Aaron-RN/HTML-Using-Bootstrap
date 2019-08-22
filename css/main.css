@@ -19,8 +19,25 @@
     .d-show-lg-only{display: block;}
 }
 
-.font-Alfa-Slab-One{font-family: 'Alfa Slab One', cursive;}
+.font-Roboto-Condensed{font-family: 'Roboto Condensed', sans-serif;}
+.font-Roboto{font-family: 'Roboto', sans-serif;}
 
-.navLinks a{border-left: 1px lightgray solid; color: black;text-decoration: none;padding: 6px;}
-.navLinks a:hover{color: red;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Roboto Condensed', sans-serif;}
+a{text-decoration: none;color: black;}
+a:hover{color: red;text-decoration: none;}
+
+.navLinks a{border-left: 1px lightgray solid;padding: 6px;font-weight: bold;}
 .navLinks a:first-of-type{border:0;}
+.opinionBox{border-bottom: 1px lightgray solid;}
+
+.article-header{color: #000; font-weight: bold;}
+.article-header a:hover{color: #000;text-decoration: underline;text-decoration-color: #DF0000;}
+.article-header-culture a:hover{color: #000;text-decoration: none;}
+.block-caption{position: absolute;bottom: 0;color: #DF0000;background-color: #fbfbfb;font-family: 'Roboto Condensed', sans-serif;font-weight: bold;text-transform: uppercase;}
+.article-tag{background-color: #d6f5f5;padding: 5px;}
+.article-tag:hover{background-color: #000; color: #FFF;}
+.article-tag a:hover{color: #FFF;}
+
+/* Colors */
+.bg-white{background-color: #FFF;}
+.bg-lgrey{background-color: #f2f2f2;}

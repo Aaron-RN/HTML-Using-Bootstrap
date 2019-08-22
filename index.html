@@ -4,26 +4,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <script src="https://kit.fontawesome.com/056d9f1094.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
         <title>Solo Project: Using the Bootstrap Framework</title>
     </head>
-    <body>
+    <body class="pl-xl-5 pr-xl-5 bg-lgrey">
+        <div class="pr-lg-5 pl-lg-5">
         <header>
             <div class="container-fluid">
-                <div class="col-sm-12 p-0 pl-xl-5 pr-xl-5">
-                <div class="bg-danger row justify-content-between align-items-end pb-4 pl-2 pr-2 ml-lg-5 mr-lg-5">
-                    <div class="text-white p-2 d-show-lg-only">Mon, Aug 19, 2019</div>
-                    <div class="text-white display-3 font-Alfa-Slab-One">Newsweek</div>
-                    <div class="d-flex text-uppercase display-5 p-2">
+                <div class="bg-danger row justify-content-between align-items-end p-4">
+                    <div class="text-white font-Roboto-Condensed d-show-lg-only">Mon, Aug 19, 2019</div>
+                    <img src="images/newsweek-logo.svg" alt="Newsweek Logo" class="text-white img-fluid" style="width: 30%;">
+                    <div class="d-flex text-uppercase display-5">
                         <div class="text-white font-weight-bold">Sign in</div>
-                        <div class="bg-white text-danger font-weight-bold pl-2 pr-2 ml-2">Subscribe &#0155;</div>
+                        <div class="bg-white text-danger font-Roboto-Condensed font-weight-bold pl-2 pr-2 ml-2">Subscribe &#0155;</div>
                     </div>
                 </div>
-                </div>
             </div>
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar navbar-expand-md p-2 bg-white">
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -31,22 +30,20 @@
                 <!-- Navbar links -->
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <div class="container-fluid"> 
-                    <div class="col-sm-12 p-0 pl-lg-5 pr-lg-5">
-                    <div class="row navLinks justify-content-around text-center p-2 ml-lg-5 mr-lg-5">
-                        <a href="#" class="h5 flex-fill">U.S.</a>
-                        <a href="#" class="h5 flex-fill">World</a>
-                        <a href="#" class="h5 flex-fill">Business</a>
-                        <a href="#" class="h5 flex-fill">Tech &amp; Science</a>
-                        <a href="#" class="h5 flex-fill">Culture</a>
-                        <a href="#" class="h5 flex-fill">Sports</a>
-                        <a href="#" class="h5 flex-fill">Health</a>
-                        <a href="#" class="h5 flex-fill">Opinion</a>
-                        <a href="#" class="h5 flex-fill">Vantage</a>
+                    <div class="row navbar-nav navLinks font-Roboto-Condensed justify-content-around text-center">
+                        <a href="#" class="h5 flex-fill nav-link">U.S.</a>
+                        <a href="#" class="h5 flex-fill nav-link">World</a>
+                        <a href="#" class="h5 flex-fill nav-link">Business</a>
+                        <a href="#" class="h5 flex-fill nav-link">Tech &amp; Science</a>
+                        <a href="#" class="h5 flex-fill nav-link">Culture</a>
+                        <a href="#" class="h5 flex-fill nav-link">Sports</a>
+                        <a href="#" class="h5 flex-fill nav-link">Health</a>
+                        <a href="#" class="h5 flex-fill nav-link">Opinion</a>
+                        <a href="#" class="h5 flex-fill nav-link">Vantage</a>
                         <form class="form-inline flex-fill text-secondary" action="/search_page.php">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search">
                             <button class="btn h5 text-secondary" type="submit"><i class="fas fa-search"></i></button>
                         </form>
-                    </div>
                     </div>
                 </div>
                 </div>
@@ -54,10 +51,178 @@
         </header>
         
         <main>
-            <div class="container-fluid">
-                <div class="col-sm-12 p-0 pl-lg-5 pr-lg-5">
-                    <div class="row">
-                        <div class="col"></div>
+            <div class="container-fluid mt-1">
+                <div class="col-sm-12 p-sm-0">
+                    <div class="row p-3 bg-white">
+                        <div class="col-sm-12 col-md-6 col-lg order-2 order-md-1">
+                            <h6 class="text-secondary font-weight-bold">FEATURED STORIES</h6>
+                            <section>
+                                <div class="position-relative">
+                                    <a href="#"><figure><img src="images/newsweek-momentum-awards-2019.png" alt="Newsweek Momentum Awards" class="img-fluid"></figure></a>
+                                    <div class="block-caption p-2 pl-3 pr-3">Analysis</div>
+                                </div>
+                                <h4 class="article-header"><a href="#">The Newsweek Momentum Awards</a></h4>
+                                <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."
+                                </p>
+                            </section>
+                            <section>
+                                <div class="position-relative">
+                                    <a href="#"><figure><img src="images/baby-measles.jpg" alt="baby with measles" class="img-fluid"></figure></a>
+                                    <div class="block-caption p-2 pl-3 pr-3">News</div>
+                                </div>
+                                <h4 class="article-header"><a href="#">Measles on the Rise: Outbreak Grows to 30 States</a></h4>
+                                <p>The increase in measles cases is due to fewer people being vaccinated against the deadly disease, which was, at one time, declared eliminated.
+                                </p>
+                            </section>
+                            <section>
+                                <div class="position-relative">
+                                    <a href="#"><figure><img src="images/syria-ypg-kurdish-fighters.jpg" alt="Kurdish soldiers with guns" class="img-fluid"></figure></a>
+                                    <div class="block-caption p-2 pl-3 pr-3">World</div>
+                                </div>
+                                <h4 class="article-header"><a href="#">Turkey Raising Tensions with Russia, Iran in Syria as It Tries U.S. Deal</a></h4>
+                                <p>As a deal between Russia and Turkey neared collapse in Idlib, a separate Turkish attempt to enhance its influence in the country at the expense of another U.S. ally has apparently made progress.
+                                </p>
+                            </section>
+                            <section>
+                                <div class="position-relative">
+                                    <a href="#"><figure><img src="images/spot-im-logo.png" alt="spot IM logo" class="img-fluid"></figure></a>
+                                    <div class="block-caption p-2 pl-3 pr-3">Editor's Note</div>
+                                </div>
+                                <h4 class="article-header"><a href="#">To Our Readers:</a></h4>
+                                <p>We always want to hear from you, and to make that easier, we've implemented a new commenting forum. Take a look at the bottom of Newsweek articles. Spot.IM is a tool that helps readers respond to our stories and communicate with one another—and with us. Ask us a question, embed a GIF, point out a mistake. Be civil and respectful, please. And most important: Be in touch.
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-5 order-1 order-md-2">
+                            <section>
+                                <h6 class="text-secondary font-Roboto-Condensed font-weight-bold">TOP STORY</h6>
+                                <article>
+                                    <div class="position-relative">
+                                        <a href="#">
+                                            <figure><img src="images/conservatives-come-together-annual-cpac-gathering.jpg" alt="Annual CPAC gathering" class="img-fluid"></figure>
+                                        </a>
+                                        <div class="block-caption p-2 pl-3 pr-3">U.S.</div>
+                                    </div>
+                                    <h4 class="article-header"><a href="#">Exclusive: Fifth NRA Board Member Resigns Amid String of Recent Defections</a></h4>
+                                    <p>NRA board member Richard Childress, a former NASCAR driver and the owner of a self-titled car racing enterprise, submitted his resignation to the board on Monday, according to a copy of the letter obtained by Newsweek.
+                                    </p>
+                                </article>
+                            </section>
+                            <section>
+                                <div class="bg-lgrey">
+                                <h6 class="text-secondary font-Roboto-Condensed font-weight-bold p-2">CULTURE &amp; TRAVEL</h6>
+                                <div class="row pb-2">
+                                    <div class="col-sm-12 col-md-6">
+                                        <article>
+                                            <a href="#">
+                                                <figure><img src="images/latitude-15-zambia.jpg" alt="zambia hotel" class="img-fluid"></figure>
+                                            </a>
+                                            <div class="p-3">
+                                                <h5 class="article-header-culture"><a href="#">7 Insanely Cool Hotels For Your Co-Working Needs</a></h5>
+                                                <p class="text-secondary">These global hotels are defining the future of work for an entire generation.</p>
+                                                <div class="d-inline article-tag container small"><a href="#">Business Travel</a></div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <article>
+                                            <a href="#">
+                                                <figure><img src="images/airplane.jpg" alt="Air plane flying at dawn break" class="img-fluid"></figure>
+                                            </a>
+                                            <div class="p-3">
+                                                <h5 class="article-header-culture"><a href="#">How to Go to Hawaii (Practically) for Free</a></h5>
+                                                <p class="text-secondary">Airfare to Hawaii can be prohibitive - but if you have the right credit card and know how to use their miles, you can fly practically for free</p>
+                                                <div class="d-inline article-tag container small"><a href="#">Airlines</a></div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="row pb-2">
+                                    <div class="col-sm-12 col-md-6">
+                                        <article>
+                                            <a href="#">
+                                                <figure><img src="images/still-4-eop.jpg" alt="zambia hotel" class="img-fluid"></figure>
+                                            </a>
+                                            <div class="p-3">
+                                                <h5 class="article-header-culture"><a href="#">The New Documentary Trying to Save the Most Trafficked Mammals in the World</a></h5>
+                                                <p class="text-secondary">The Pangolin, quite possibly one of the strangest and most unique animals in the world, is on the verge of extinction.</p>
+                                                <div class="d-inline article-tag container small"><a href="#">Africa</a></div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <article>
+                                            <a href="#">
+                                                <figure><img src="images/rosie-wiltbank.jpg" alt="Air plane flying at dawn break" class="img-fluid"></figure>
+                                            </a>
+                                            <div class="p-3">
+                                                <h5 class="article-header-culture"><a href="#">Holding Court: Bringing Back the Rodeo Queen</a></h5>
+                                                <p class="text-secondary">The heyday of the Rodeo Queen was the mid-80s, but one queen-making coach says the competition is stampeding back.</p>
+                                                <div class="d-inline article-tag container small"><a href="#">Pageant</a></div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-sm-12 col-md col-lg order-3">
+                            <h6 class="text-secondary font-weight-bold">OPINION</h6>
+                            <section>
+                                <div class="media opinionBox pt-2">
+                                    <a href="#"><img src="images/opinions/yehia-hamed.png" alt="Yehia Hamed" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                  <div class="media-body">
+                                    <h6 class="font-weight-bold"><a href="#">I Survived Egypt's Rabaa Massacre. Believe Me, It Could Happen in Hong Kong</a></h6>
+                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Yehia Hamed</p>
+                                  </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="media opinionBox pt-2">
+                                    <a href="#"><img src="images/opinions/todd-tanner.png" alt="Todd Tanner" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                  <div class="media-body">
+                                    <h6 class="font-weight-bold"><a href="#">The Trump Administration's Attack on Nature Threatens Hunters Like Me</a></h6>
+                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Todd Tanner</p>
+                                  </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="media opinionBox pt-2">
+                                    <a href="#"><img src="images/opinions/aquarius-gilmer.png" alt="Aquarius Gilmer" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                  <div class="media-body">
+                                    <h6 class="font-weight-bold"><a href="#">Here in the South, HIV/AIDS Is Killing in the Shadows Like It's 1989</a></h6>
+                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Aquarius Gilmer</p>
+                                  </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="media opinionBox pt-2">
+                                    <a href="#"><img src="images/opinions/charlie-kirk.png" alt="Charlie Kirk" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                  <div class="media-body">
+                                    <h6 class="font-weight-bold"><a href="#">A Sleeper Cell of Socialists Could Steal the 2020 Election</a></h6>
+                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Charlie Kirk</p>
+                                  </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="media opinionBox pt-2">
+                                    <a href="#"><img src="images/opinions/alex-kack.png" alt="Alex Kack" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                  <div class="media-body">
+                                    <h6 class="font-weight-bold"><a href="#">I'm #GreenShirtGuy, and Here's Why I Laughed at Those Pro-Trump Hecklers</a></h6>
+                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Alex Kack</p>
+                                  </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="media opinionBox pt-2">
+                                    <a href="#"><img src="images/opinions/newt-gingrich.png" alt="Newt Gingrich" class="mr-3 rounded-circle" style="width:65px;"></a>
+                                  <div class="media-body">
+                                    <h6 class="font-weight-bold"><a href="#">If China Attacks Democracy in Hong Kong, There Must Be Consequences</a></h6>
+                                    <p class="text-secondary text-uppercase font-weight-bold small">BY Newt Gingrich</p>
+                                  </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>            
             </div>
@@ -69,5 +234,6 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         </footer>
+        </div>
     </body>
 </html>
