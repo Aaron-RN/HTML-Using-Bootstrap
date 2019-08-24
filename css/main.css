@@ -22,7 +22,7 @@
 .font-Roboto-Condensed{font-family: 'Roboto Condensed', sans-serif;}
 .font-Roboto{font-family: 'Roboto', sans-serif;}
 
-h1,h2,h3,h4,h5,h6 {font-family: 'Roboto Condensed', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Roboto Condensed', sans-serif;font-weight: bold;}
 a{text-decoration: none;color: black;}
 a:hover{color: red;text-decoration: none;}
 
@@ -46,6 +46,15 @@ a:hover{color: red;text-decoration: none;}
 .slide-caption-box{position: absolute;bottom: 0; right: 8px; width: 42px;height: 36px;border:2px #DF0000 solid;}
 .slide-caption-box-2{position: absolute;bottom: 5px; right: 13px; width: 42px;height: 36px;border:2px #DF0000 solid;border-bottom: 0;border-right: 0;}
 .slide-caption-box-3{position: absolute;bottom: 10px; right: 18px; width: 42px;height: 36px;border:2px #DF0000 solid;border-bottom: 0;border-right: 0;}
+
+.book-behind{position: relative;z-index: 1;}
+.book-forefront{position:absolute;left: 100px;top: 16px;z-index: 2;}
+
+.social-media{font-size: 28px;}
+.social-media a{margin-left: .65rem;color:gray;}
+.social-media a:first-of-type{margin-left: 0;}
+
+.gray-divider{border-bottom: 2px #f2f2f2 solid; width: 96%; height: 2px;margin: auto;}
 
 .border-white{border: 1px #FFF solid;}
 .border-red{border:2px #DF0000 solid;}
