@@ -98,12 +98,6 @@ a:hover { color: red; text-decoration: none; }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px), (min-width: 600px) {
-  .d-show-sm-only { display: block; }
-  .d-show-md-only { display: none; }
-  .d-show-lg-only { display: none; }
-
-  .d-show-sm-md-only { display: block; }
-
   .fixed-top-md { position: fixed; width: 100%; z-index: 9; top: 0; }
 
   .nav-link:hover { background-color: #000; }
@@ -121,12 +115,6 @@ a:hover { color: red; text-decoration: none; }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .d-show-sm-only { display: none; }
-  .d-show-md-only { display: block; }
-  .d-show-lg-only { display: none; }
-
-  .d-show-sm-md-only { display: block; }
-
   .fixed-top-md { position: fixed; width: 100%; z-index: 9; top: 0; }
 
   .nav-link:hover { background-color: #000; }
@@ -144,12 +132,6 @@ a:hover { color: red; text-decoration: none; }
 
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
-  .d-show-sm-only { display: none; }
-  .d-show-md-only { display: none; }
-  .d-show-lg-only { display: block; }
-
-  .d-show-sm-md-only { display: none; }
-
   .fixed-top-md { position: relative; width: auto; }
 
   .nav-link:hover { background-color: inherit; }
