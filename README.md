@@ -11,6 +11,7 @@ A solo project where I am tasked with creating a replica of the newsweek.com web
 ## Built With
 
 - HTML5, CSS
+- Bootstrap 4
 
 ## Author
 
